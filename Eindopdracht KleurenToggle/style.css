@@ -1,0 +1,123 @@
+@font-face {
+    @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300&display=swap');
+}
+
+* {
+  font-family: Urbanist;
+  font-size: 30px;
+  color: white;
+}
+
+body {
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+ul.nav {
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav {
+  max-height: 90px;
+  overflow: hidden;
+}
+
+.nav__item {
+  margin: 0 auto;
+}
+
+.nav__item button {
+  margin: 1px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav__item--hamburger button {
+  background: rgb(72, 72, 72);
+  width: 100px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.nav__item--hamburger button i {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.nav__item--red button {
+  background-color: #c41c24;
+  
+}
+
+.nav__item--green button {
+    background-color: #0B7D32;
+    
+}
+  
+.nav__item--blue button {
+    background-color: #1d2f69;
+}
+
+.nav__item--magenta button {
+    background-color: #e45dbf;
+   
+}
+  
+.nav__item--yellow button {
+  background-color: #fbc301;
+}
+
+.nav__item--cyan button {
+  background-color: #00bbbb;
+}
+
+.visibleMenu {
+  max-height: 800px;
+  -webkit-transition: 0.8s ease-in;
+  transition: 0.8s ease-in;
+}
+
+.default-background {
+    Background-color: rgb(3, 3, 3);
+}
+
+.red-background {
+  background-color: #c41c24;
+}
+
+.green-background {
+    background: #0B7D32;
+}
+  
+.blue-background {
+    background: #1d2f69;
+}
+
+.magenta-background {
+  background: #e45dbf;
+}
+
+.yellow-background {
+    background: #fbc301;
+}
+
+.cyan-background {
+  background: #00bbbb;
+}
